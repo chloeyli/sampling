@@ -40,39 +40,112 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `#1`
 
 Describe the purpose of your survey:
-```
-write your answer here...
-```
+
+* The purpose of my survey is to understand why entry- to lower-level employees are leaving the company, and to see if there are any ways my company can implement to prevent this from happening. With my survey, I want to identify any potential problems that these employees are facing and what changes would prevent these employees from leaving.
 
 Describe your target population, sampling frame, sampling units, and observational units:
-```
-write your answer here...
-```
+
+* Target population: 
+    * Current full-time employees from Tech Company who earn a salary band from: $0 - $50,000 or are classified under new graduate status
+* Sampling frame: The portion of current full-time employees from Tech Company who earn a salary band from: $0 - $50,000, or are classified under new graduate status, who completed my survey
+* Sampling units: employees (rows, eg. trees)
+* Observational units: company culture, career progression, salary, work-life balance, stress levels, vacation allotment (columns, eg. characteristic of trees - height, species)
+* Sampling strategy: I want to use Stratified Sampling --> stratify across all departments in my company and then do a random sampling of employees in these departments. 
 
 Your 5-10 question survey:
-```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
+
+1. Do you like the company culture? 
+            Yes     No
+2. Do you like your current position? 
+            Yes     No
+3. From 1-5, how do you feel about your career progression and/or possibility for promotions? (1 - bad, 5 - good)
+            1   2   3   4   5
+4. From 1-5, how do you feel about your salary? (1 - bad, 5 - good)
+            1   2   3   4   5
+5. From 1-5, how do you feel about your work-life balance? (1 - bad, 5 - good)
+            1   2   3   4   5
+6. From 1-5, what do you feel are your current work stress levels? (1 - bad, 5 - good)
+            1   2   3   4   5 
+7. From 1-5, how do you feel about your current vacation allotment? (1 - bad, 5 - good)
+8. Which area of improvements below do you believe could contribute to a better work environment for you?
+    * company culture
+    * career progression
+    * salary
+    * work-life balance
+    * stress levels
+    * vacation allotment
 9. write your question here... (optional)
 10. write your question here... (optional)
-```
+
 
 ## Part B - Survey Evaluation:
 
 Identify and describe survey features:
 
-```
-write your answer here
-```
+1. Sample type
+    * Stratified sampling - each province (10 total) were divided into strata or geographic areas. Many census metro areas were considered a separate strata (ie. Toronto)
+2. Sample size
+    * Target sample size: 20,000
+    * Actual sample size: 16, 149 (excluding rejected respondents)
+3. Target population
+    * All persons 15 years of age and older in Canada, excluding: 
+    * Residents of the Yukon, Northwest Territories, and Nunavut
+    * Full-time residents of institutions
+4. Sampling frame
+    * Survey frame using 2 different components:
+    1. lists of telephone numbers in use (both landline and cellular) available to Stats Can (telephone companies, census of population)
+    2. The Address Registrar (AR): List of all dwellings within the 10 provinces
+5. Survey mode(s)
+    * telephone interviews
+    * self-competed questionnaire
+6. Timeline
+    * 3 months (Sept - Dec, 2018)
+7. Response rate
+    * 41.9%
+8. Weights
+    1. Initial weight calculation
+        * phone numbers belonging to same address were grouped together. However, some groups may not be correct (ie. grouped phone numbers do not belong to same address). Questions were then added to surveys in order to make adjustments to the initial probability of selection to account for the fact that some households have higher probability of being selected. 
+        * initial weight is inverse of this adjusted probability of selection --> **Household weight**
+    2. Removing out-of-scope telephone numbers (eg. business/not in service phone numbers)
+    3. Three-stage non-response adjustment
+        * stage 1: adjustments for complete non-response
+        * stage 2: adjustments made non-repsponse with additional information available to Stats Can outside of the questionnaire
+        * stage 3: adjustments made for partial non-response with additional information available to Stats Can outside of the questionnaire
+    4. Person weight calculation
+        * a person weight was calculated for the respondent by multiplyng household weight by the # of persons 15 years of age or older
+        * Initial household weight s Factor 1 x Number of eligible house members
+    5. Adjustment of person weights for Rejective Sampling
+        * multiply respondents who didn't respond and were not volunteers by a factor
+        * (sum of weights for non-volunteer respondents in each stratum - age group)/(sum of weights for non-volunteer respondents not 'rejected' in each stratum - age group)
+    6. Adjustment of person weights to external totals
+        * adjusted for geographical stratum, age-sex groups by province, and income
+
+9. Data processing
+    * responses were entered directly into computers by either respondents themselves during self-completed electronic questionnaires, or by telephone intervieweres
+    * same data capture system was used for both respondents and telephone intervieweres
+    * data capture system allowed for codes, built in edits, and automatically followed flow of questionnaire
+    * data output was encrypted and electronically transmitted to Ottawa
+    * data was coded into existing categories if a match was possible, new categories, or "other-specify".
+    * demographics (eg. occupation, industry, language, education, country of birth, religion) was coded using standard classification systems used by the General Social Survey and Statistics Canada's harmonized content program
+10. Cleaning, imputation, etc
+    * dropped any duplicate data records, non-responses, and out-of-scope records
+    * missing or incorrect data were imputed
+        * item non-responses were handled using "not stated" codes or imputed
+        * partial non-response were handled like non-reponses 
+11. Sources of error
+    * sampling errors
+        * we can try to estimate using either standard error or coefficient of variation
+    * non-sampling errors (interviewers misunderstood, respondents make mistakes, answers incorrectly entered, or during processing of data)
+        * non-response (item or partial non-response - not answering one or more questions) --> happened mostly because participants misinterpreted, did not want to, or forgot the requested information 
+        * this was handled by imputing respondent's answers
+12. Limitations, known biases, etc
+    * Non-sampling errors like systemic errors could have contributed to bias: 
+        * selection bias -> this study only captured those who picked up the phone calls or responded to the online survey
+        * nonresponse -> complete non-response dropped from sample and partial non-response were imputed
+13. Link to documentation and any additional sources used: https://abacus.library.ubc.ca/file.xhtml?persistentId=hdl:11272.1/AB2/GBFDYG/FF7L7T&version=1.0
 
 ## Rubric
 
